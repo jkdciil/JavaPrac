@@ -111,6 +111,28 @@ public class DP {
 		System.out.println(si+111);
 		int sii=Integer.parseInt(si);
 		System.out.println(sii+111);
+		
+		//separate odd and even values in array
+		int oae[]= {30,20,7,27,55,13,22};
+		System.out.println("the even values:");
+		for(int i=0;i<oae.length;i++)
+		{
+			if(oae[i]%2==0)
+			{
+				System.out.println(oae[i]);
+			}
+		}
+		
+		System.out.println("the odd values:");
+		for(int j=0;j<oae.length;j++)
+		{
+			if(oae[j]%2!=0)
+			{
+				System.out.println(oae[j]);
+			}
+		}
+		
+		
 	/*	//count number of char in string
        
         //count number of char in a string with out space 
@@ -132,6 +154,7 @@ public class DP {
         //sort the array in DO
         //swap the number
         //string to int 
+        //separate odd and even values in array
          
          */
 
