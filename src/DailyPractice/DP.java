@@ -1,5 +1,7 @@
 package DailyPractice;
 
+import java.util.Collections;
+
 public class DP {
 
 	public static void main(String[] args) {
@@ -131,7 +133,31 @@ public class DP {
 				System.out.println(oae[j]);
 			}
 		}
-		
+		//program to swap two elements in an Array
+		int axe[]= {10,39,20,16,38,27};
+		System.out.println("after swapping");
+		//in array index starts from 0 which means{0,1,2,3,4-----}like that
+	    int tema=axe[1];
+	    axe[1]=axe[5];
+	    axe[5]=tema;
+	    for(int bxe:axe)
+	    {
+	      System.out.println(bxe);
+	    }
+	    /*if it is a array list then
+	     Collections.swap(obj,2,7)
+	     
+	    */
+	    
+	    //count numbers in a int
+	    int numbers=12345;
+	    int countz=0;
+	    while(numbers!=0)
+	    {
+	    	numbers=numbers/10;
+	    	countz++;
+	    }
+	    System.out.println("numbers in a int="+countz);
 		
 	/*	//count number of char in string
        
@@ -155,7 +181,8 @@ public class DP {
         //swap the number
         //string to int 
         //separate odd and even values in array
-         
+        //program to swap two elements in an Array
+        // count numbers in a int
          */
 
 	}
